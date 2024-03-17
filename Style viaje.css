@@ -1,0 +1,76 @@
+body{
+    background-image: url(Fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.titulo{
+    font-size: 2.6rem;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.links{
+
+    display: flex;
+    justify-content: center;
+    
+}
+.img{
+    margin: 0 10px;
+
+    width: 400px;
+    height: 250px;
+    border-radius: 25px;
+    box-shadow: 5px 8px 12px black;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+
+}
+.img:hover{
+    transform:  scale(1.1);
+    box-shadow: 13px 15px 37px black;
+}
+.links p {
+    font-size: 2.6rem;
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+.links p2 {
+    font-size: 2.6rem;
+    color: white;
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+.links p3 {
+    font-size: 2.6rem;
+    color: white;
+    position: absolute;
+    top: 71%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+.nombre{
+    font-size: 2.6rem;
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+

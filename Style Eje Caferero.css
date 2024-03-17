@@ -1,0 +1,56 @@
+body{
+    background-image: url(Fondo\ eje\ Cafetero\ \(2\).jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.texto1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: white;
+    margin: 5rem 10rem;
+   
+    
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    text-align: justify;
+}
+    .hotel{
+        margin: 0px 10px;
+    
+        width: 400px;
+        height: 250px;
+        border-radius: 25px;
+        box-shadow: 5px 8px 12px black;
+        cursor: pointer;
+        transition: all 0.3 ease-in-out;
+}
+.hotel:hover{
+    transform:  scale(1.1);
+    box-shadow: 13px 15px 37px black;
+}
+.imagen{
+    width: 400px;
+    height: 250px;
+    border-radius: 25px;
+    box-shadow: 5px 8px 12px black;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+}
+.imagen:hover{
+    transform:  scale(1.1);
+    box-shadow: 13px 15px 37px black;
+}
+.img{
+    border-radius: 25px;
+}
+.mapa{
+    border-radius: 25px;
+    box-shadow: 5px 8px 12px rgb(0, 0, 0);
+}
+.titulo{
+    color: white;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    
+}
